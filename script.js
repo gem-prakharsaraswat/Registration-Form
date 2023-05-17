@@ -13,6 +13,6 @@ function validatePhone(){
     console.log(console.log(phone));
     if(!phoneRegex.test(phone))
     {
-        alert("Phone number does not match");
+        alert("Enter a valid phone number");
     }
 }
