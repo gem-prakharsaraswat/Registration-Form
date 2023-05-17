@@ -4,4 +4,15 @@ function test(){
     {
         alert("Passwords don't match.");
     }
+    
+}
+
+function validation(){
+    const phone = document.getElementById('phonenumber').value;
+    const phoneRegex = /^\d{10}$/;
+    console.log(console.log(phone));
+    if(!phoneRegex.test(phone))
+    {
+        alert("Phone number does not match");
+    }
 }
