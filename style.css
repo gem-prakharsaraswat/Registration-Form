@@ -1,11 +1,11 @@
 body{
     padding: 0px;
     margin: 0;
+    background:linear-gradient(to right, #3931af, #00c6ff);
 }
 .register {
     margin-top: 3%;
     padding: 3%;
-    background:linear-gradient(to right, #3931af, #00c6ff);
 }
 
 .register-left {
@@ -16,6 +16,34 @@ body{
 .row{
     align-items: center;
 }
+.alrt{
+    visibility: hidden;
+}
+.table-container {
+    overflow-x: auto;
+    background:linear-gradient(to right, #3931af, #00c6ff);
+    margin-top: 2%;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    border-color: #fff;
+  }
+  
+  @media screen and (max-width: 600px) {
+    table {
+      font-size: 12px;
+    }
+  }
+  
 
 .register-left input {
     border: none;
@@ -40,9 +68,6 @@ body{
     font-weight: lighter;
     padding: 12%;
     margin-top: -9%;
-}
-.form-control {
-    margin:5%;
 }
 
 .register .register-form {
